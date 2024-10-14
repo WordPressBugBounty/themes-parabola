@@ -1,0 +1,884 @@
+/* Admin CSS */
+
+@import url("../../fonts/fontfaces.css");
+
+/* Farbtastic overwrites */
+
+#main-options .farbtastic {
+	position: absolute;
+	z-index:2;
+	margin-left:50px;
+	margin-top:-110px;
+	background-color:#F7F7F7;
+	border:1px solid #CCC;
+}
+#main-options .farbtastic * {
+	position: absolute;
+	cursor: crosshair;
+}
+#main-options .farbtastic, #main-options .farbtastic .wheel {
+	width: 195px;
+	height: 195px;
+}
+#main-options .farbtastic .color, #main-options .farbtastic .overlay {
+	top: 47px;
+	left: 47px;
+	width: 101px;
+	height: 101px;
+}
+
+#main-options .farbtastic span.mytitle {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border:1px solid #CCC;
+    font-family: Segoe UI;
+    font-size: 14px;
+	line-height: 20px;
+	top:195px;
+	background:#333;
+	color:#EEE;
+    left: -1px;
+    padding: 10px 0;
+	display: block;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 195px; }
+
+/* end of Farbtastic overwrites  */
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button, label {
+	font-size:12px;
+}
+
+
+#main-options {
+	width:100%;
+	display:block;
+	clear:left;
+	padding-top:20px;
+	font-family:  Segoe UI;
+	font-size: 12px;
+	margin-bottom:10px;
+}
+
+#lefty  {
+	display:table-cell;
+	min-width:720px;
+	width:720px;
+	padding:0 15px;
+}
+
+#righty {
+	display:table-cell;
+	max-width:500px;
+	vertical-align:top;
+	padding-top:87px;
+}
+
+@media (max-width:1200px) {
+	.cryout-admin #lefty  { display: block; }
+	.cryout-admin #righty { width: 100%; max-width: 100%; padding: 0 15px; min-width: 720px; }
+}
+
+.cryout-admin #righty p, .cryout-admin #righty span, .cryout-admin .form-table small, #righty ul li {
+	font-size: 12px;
+	color:#444;
+	font-family:Segoe UI;
+}
+
+.cryout-admin #righty h3 {
+	padding:10px;
+	background:#444;
+	color:#EEE;
+	text-shadow:none;
+	-moz-text-shadow:none;
+	-webkit-text-shadow:none;
+	font-size:14px;
+	font-family:Open Sans;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+.cryout-admin .form-table {
+	margin:0;
+}
+.cryout-admin .form-table small {
+	font-style:italic;
+	display:block;
+	float:none;
+	clear:both;
+}
+.cryout-admin .donate, .cryout-admin .support {
+	width:100%;
+}
+
+.cryout-admin .postbox .hndle {
+    cursor: auto;
+    font-size: 13px;
+    margin: 0;
+    padding: 6px 10px 7px;
+}
+
+
+.wrap.cryout-admin h2 {
+	font-family: Calibri, Arial;
+	margin-bottom:5px;
+}
+
+#accordion {
+	width:100%;
+	font-family:Segoe UI,Calibri, Arial;
+	display:block;
+	float:none;
+}
+
+#submitDiv {
+	display:block;
+	float:none;
+	height:30px;
+	font-family:Segoe UI, Calibri, Arial;
+}
+
+#version {
+	display:block;
+	float:none;
+	clear:both;
+	padding-top:10px;
+	color:#666;
+}
+
+#accordion h3, #accordion h2 {
+	border:none;
+	background-image:none;
+	background-color:#2D2D2D;
+	margin:0;
+	padding:10px;
+	clear:both;
+	display:block;
+	float:none;
+	font-size: 17px;
+	padding-left:30px;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#F0F0F0 ;
+	border-top:1px solid #3D3D3D;
+	border-bottom:1px solid #000;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-moz-text-shadow:0 1px 1px #000000;
+	-webkit-text-shadow:0 1px 1px #000000;
+	text-shadow:0 1px 1px #000;
+	line-height:1.3;
+}
+
+#accordion h3:hover, #accordion h2:hover {
+	background-color:#3A3A3A;
+	color:#FFF;
+}
+
+.cryout-admin .ui-accordion h3.ui-accordion-header-active, .cryout-admin .ui-accordion h2.ui-accordion-header-active {
+	background:#191919;
+}
+
+.cryout-admin #accordion select option {
+	font-size:1.1em;
+}
+
+.cryout-admin #accordion select.admin-fonts option {
+	font-size:1.3em;
+	padding:2px;
+	line-height:1.4em;
+}
+
+.cryout-admin #accordion select.admin-fonts optgroup {
+	padding:10px;
+}
+
+.cryout-admin .form-table th {
+	width: 170px;
+	padding:20px 10px;
+}
+
+.cryout-admin .form-table th, .cryout-admin .form-wrap label {
+	color: #444;
+	font-size: 15px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+.cryout-admin .form-table tr:nth-child(2n) {
+	background:#fff;
+}
+
+.cryout-admin .form-table td {
+	vertical-align:middle;
+	padding:12px;
+}
+
+.cryout-admin input[type="text"], .cryout-admin select {
+	border:1px solid #aaa;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+}
+
+.cryout-admin .submit {
+	text-align:right;
+	margin-right:20px;
+}
+
+#accordion select {
+	min-width:120px;
+	max-width:200px;
+	padding:4px;
+}
+
+#accordion textarea {
+	max-width:90%;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+}
+
+#accordion .slidebox textarea  {
+	max-width:100%;
+}
+
+#accordion select.fontnameselect { width: 150px; }
+#accordion input.googlefonts { width: 150px; }
+#accordion select.fontsizeselect { width: 70px; min-width: 0; }
+
+#accordion input.colorthingy { width: 65px; margin-right: 10px; }
+
+#accordion .form-table h4 {
+    display: inline-block;
+    min-width: 152px;
+    margin: 0 0 9px 0; }
+
+.cryout-admin #presets_button {
+	background:#BF4D28;
+	color:#EEE;
+	font-weight:bold;
+	border:none;
+	-moz-text-shadow:none;
+	-webkit-text-shadow:none;
+	text-shadow:none;
+	transition: background .3s ease-in-out ;
+}
+
+.cryout-admin #presets_button:hover {
+	background:#444;
+}
+
+/* IMAGES  */
+
+.cryout-admin .images {
+	display:inline-block;
+	width:140px;
+	padding:5px 0;
+	background:#FFF;
+	opacity:1;
+}
+
+.cryout-admin .presets {
+	width:auto;
+	padding:0;
+	margin-right:10px;
+	margin-bottom:5px;
+	border-width:5px;
+}
+
+.cryout-admin .presets:hover {
+	background:#EEE;
+	border-width:5px;
+}
+
+
+/* CUSTOM IMAGE BORDER */
+
+.parabola-image-none { }
+.parabola-image-one {
+	border:1px solid #CCC;
+	padding:2px;
+}
+.parabola-image-two  {
+	border:5px solid #444;
+	-webkit-box-shadow:0 0 3px #444;
+	-moz-box-shadow:0 0 3px #444;
+	box-shadow:0 0 3px #444;
+}
+.parabola-image-three  {
+	border:1px solid #eee;
+	padding:4px;
+	-moz-box-shadow:0 0 5px #e7e7e7;
+	-webkit-box-shadow:0 0 5px #e7e7e7;
+	box-shadow:0 0 5px #e7e7e7;
+}
+.parabola-image-four  {
+	border:7px solid #f7f7f7;
+	-moz-box-shadow:0 0 1px #ddd;
+	-webkit-box-shadow:0 0 1px #ddd;
+	box-shadow:0 0 1px #ddd;
+}
+.parabola-image-five {
+	padding:8px;
+	background:url(../../images/border.png) repeat;
+}
+
+.parabola-image-one:hover { background-color:#eee; }
+.parabola-image-two:hover { -moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; }
+.parabola-image-three:hover { -moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; }
+
+/* Labels  */
+
+.cryout-admin label {
+	display:inline-block;
+	width:auto;
+	border:1px solid #FFF;
+	text-align:center;
+	background-color:#FFF;
+	padding:5px 2px;
+	transition:all .3s ease-in-out;
+}
+
+.cryout-admin label.hideareas {
+	display:block;
+	float:none;
+	text-align:left;
+}
+
+.cryout-admin label:hover {
+	opacity:.8;
+}
+
+.cryout-admin label input[type=radio] {
+	display:none;
+}
+
+.cryout-admin label.layouts {
+	display:block;
+	float:left;
+	padding:3px;
+	height:55px;
+}
+
+.cryout-admin label.layouts:hover, .cryout-admin label.images:hover {
+	background:none;
+	border-color:#CCC;
+}
+
+.cryout-admin .layouts img {
+	width:60px;
+}
+
+.cryout-admin .layouts img, .cryout-admin .images img {
+	pointer-events: none;
+}
+
+.cryout-admin .borderful {
+	border-color:#BF4C26 !important;
+	background:rgba(191,77,40,.08) !important;
+	opacity:1;
+}
+
+.cryout-admin label.layouts.checkedClass, .cryout-admin label.images.checkedClass,
+.cryout-admin label.pins.checkedClass, .cryout-admin label.sidebullets.checkedClass {
+	border-color:#BF4C26;
+	background:rgba(200,40,20,.08);
+	opacity:1;
+}
+
+#accordion input[type="text"] {
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12px;
+	padding:5px;
+}
+
+#accordion > * {
+	display:none;
+}
+
+#accordion > h3, #accordion > h2 {
+	display:block;
+}
+
+.ui-accordion .ui-accordion-content {
+	border-top:none;
+	border:1px solid #DDD;
+	overflow: hidden;
+	padding:0;
+	background:#FAFAF7;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	margin:6px;
+	position:static;
+}
+.ui-accordion .ui-accordion-content-overflow {
+	overflow: visible !important;
+}
+
+.ui-state-active {
+	background:#EEE;
+}
+
+.cryout-admin .darkbg{
+	background:#ddd;
+}
+
+.cryout-admin #status{
+	font-family:Arial; padding:5px;
+}
+
+.cryout-admin ul#files{ list-style:none; padding:0; margin:0; }
+.cryout-admin ul#files li{ padding:10px; margin-bottom:2px; width:400px; float:left; margin-right:10px;}
+.cryout-admin ul#files li img{ max-width:180px; max-height:150px; }
+
+.cryout-admin .success{ background:#99f099; border:1px solid #339933; }
+.cryout-admin .error{ background:#f0c6c3; border:1px solid #cc6622; }
+
+.cryout-admin #uploadpreview {
+	max-width:64px;
+	display:block;float:left;
+	border:1px solid #DDD;
+	padding:2px;
+}
+
+.cryout-admin #filename {
+	display:block;
+	width:auto;
+	float:left;
+	margin-left:10px;
+	font-weight:bold;
+}
+
+.cryout-admin #uploadarea {
+	margin-top:10px;
+}
+
+.cryout-admin #absolutedim {
+	margin-top:20px;
+	margin-bottom:20px;
+	position:relative;
+}
+.cryout-admin #absolutedim small{
+	margin-top:20px;
+}
+
+.cryout-admin .slmini, .cryout-admin #cdimensions {
+	display:block;
+	float:none;
+}
+
+.cryout-admin .slmini {
+	background:#F9F9F9;
+	border-bottom:1px solid #DDD;
+	padding:12px;
+}
+
+.cryout-admin .slmini:hover {
+	background:#F5F5F5;
+}
+
+.cryout-admin .slmini b {
+	width:130px;
+	display:inline-block;
+	float:left;
+	color:#555;
+}
+
+.cryout-admin .slidebox {
+	background:#F0F0EA;
+	border:1px solid #DDD;
+	margin-bottom:5px;
+	padding:0;
+}
+
+.cryout-admin .slidercontent {
+	display:none;
+	padding:0 10px 10px;
+}
+
+#accordion .form-table h4.slidetitle{
+	color:#777;
+	padding-left:10px;
+	margin:3px;
+	display: block;
+	min-width: inherit;
+	cursor:pointer;
+	transition:background .2s ease-in-out;
+}
+
+.cryout-admin .slidetitle:hover{
+	background:#F7F7F2;
+}
+
+#accordion .form-table h4.slidetitle:after{
+	content:"\25BC";
+	margin-right:7px;
+	float:right;
+	font-size:10px;
+	color:#CCC;
+}
+
+.cryout-admin .slidebox h5 {
+	display:inline-block;
+	float:none;
+	font-size:12px;
+	background:#FFF;
+	color:#777;
+	padding:0 10px;
+	margin:10px 0px 0 10px;
+	position:relative;
+	top:2px;
+	border:1px solid #DFDFDF;
+	border-bottom:none;
+}
+
+.cryout-admin .slidebox .description {
+	display:block;
+	float:none;
+}
+
+.cryout-admin .slidebox input[type="text"],
+.cryout-admin .slidebox textarea {
+	width:100%;
+	border-color:#DFDFDF;
+	color:#444;
+}
+
+.cryout-admin a.upload_image_button {
+	color:#BF4C26;
+	text-decoration:none;
+	text-shadow:none;
+	-webkit-text-shadow:none;
+	font-style:normal;
+}
+
+.cryout-admin .button {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	text-transform:uppercase;
+}
+
+.cryout-admin .slidebox a.upload_image_button {
+	float:right;
+}
+
+.cryout-admin #submitDiv input.button {
+	font-size:14px;
+	padding: 10px 15px;
+	height:auto;
+	font-weight:bold;
+}
+
+.cryout-admin .header_upload_inputs {
+	width:300px;
+}
+
+/* NEWS LISTS */
+
+.cryout-admin #righty .news-list li {
+	background:#FFF;
+	padding:7px;
+	border:1px solid #EEE;
+}
+
+.cryout-admin #righty span.news-item-date {
+	color:#999;
+	font-size:11px;
+}
+
+.cryout-admin a.news-header {
+	text-decoration:none;
+	color:#4C7373;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.cryout-admin a.news-header:hover,
+.cryout-admin a.news-read:hover {
+	color:#C47D09;
+}
+
+/*Tooltip */
+
+.cryout-admin .tooltip_div {
+	display:inline-block;
+	clear:none;
+	height:23px;
+	line-height:23px;
+}
+
+.cryout-admin a.tooltip {
+	display:inline-block;
+	clear:none;
+	height:23px;
+	line-height:23px;
+	margin-left:7px;
+}
+
+.cryout-admin a.tooltip img {
+	vertical-align:bottom;
+}
+
+.appearance_page_parabola-page .ui-tooltip {
+	display:block;
+	max-width:300px;
+	padding:5px;
+	z-index:3;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	background: #000;
+	color: #fff;
+	border-color: #000;
+	opacity: 0.9;
+}
+
+/* ADMIN HEADER AND LINKS */
+
+.cryout-admin #admin_header {
+	padding-top:20px;
+	padding-left:30px;
+	display:block;
+}
+.cryout-admin #admin_links {
+	display:block;
+	float:left;
+	clear:both;
+	text-align:left;
+	margin-left:95px;
+	margin-top:-18px;
+	position:relative;
+}
+
+.cryout-admin #admin_links a {
+	display:block;
+	float:left;
+	margin-left:3px;
+	margin-right:9px;
+	text-decoration:none;
+	font-family:Segoe UI, Arial;
+	font-size:11px;
+	color:#3F5F5F;
+	text-transform:uppercase;
+}
+
+.cryout-admin #admin_links a:hover {
+	color:#C47D09;
+}
+
+.cryout-admin .wrap div.updated,
+.cryout-admin .wrap div.error {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+/* No round corners for slider */
+
+.ui-corner-all {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+
+.ui-slider {
+	width:90%;
+	float:left;
+	height:12px;
+	background:#444;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	height:12px;
+	border:0;
+	top:0;
+}
+
+.cryout-admin #contentb {
+	display:block;
+	float:left;
+	position:absolute;
+	margin-top:-25px;
+}
+
+.cryout-admin #barb {
+	margin-left:40px;
+	color:#BF4C26;
+	display:block;
+	float:left;
+	position:absolute;
+	margin-top:-25px;
+}
+
+.cryout-admin #totalb {
+	margin-left:0px;
+	color:#333;
+	background:#CCC;
+	display:block;
+	float:left;
+	position:absolute;
+	margin-top:25px;
+	height:4px;
+	line-height:25px;
+	text-align:center;
+}
+
+.cryout-admin #totalb:before {
+	height:0;width:0;
+	content:"";
+	position:absolute;
+	border-left:8px solid #CCC;
+	border-top:5px solid transparent;
+	left:0;
+	top:-5px;
+}
+
+.cryout-admin #totalb:after {
+	height:0;
+	width:0;
+	content:"";
+	position:absolute;
+	border-right:8px solid #CCC;
+	border-top:5px solid transparent;
+	right:0;
+	top:-5px;
+}
+
+.ui-slider-range {
+background:#BF4C26;
+}
+
+.cryout-admin .underSelector {
+	margin-top:10px;
+}
+
+.cryout-admin .hndle,
+.cryout-admin .head-wrap,
+.cryout-admin .postbox,
+.cryout-admin #righty h3 {
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}
+
+.cryout-admin .postbox {
+	background:#F9F9F9;
+	border:none;
+}
+
+.cryout-admin #main-options.oldwp a.upload_image_button { display: inline; }
+.cryout-admin #main-options.oldwp #slider-range + div { padding-top: 30px; }
+
+.cryout-admin .postbox .button {
+	line-height:50px;
+	display:block;
+	float:left;
+	clear:both;
+	background:#FFF;
+	width: 200px;
+	height: auto;
+}
+
+.cryout-admin #righty p.imex-text {
+    color: #555;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 0;
+    width: 255px;
+	min-width: calc(100% - 265px);
+}
+
+.cryout-admin .address_span { margin:0 2px; }
+.cryout-admin .wp-core-ui .button, 
+.cryout-admin .wp-core-ui .button-secondary { background:#FFF; color:#000; }
+
+.cryout-admin input:-moz-placeholder,
+.cryout-admin input::-moz-placeholder { color:#666; }
+
+.cryout-admin .social-buttons {
+    text-align: center;
+}
+.cryout-admin .social-buttons a {
+    display: inline-block;
+}
+.cryout-admin .social-buttons a img {
+    max-width: 32px;
+    max-height: 32px;
+}
+.cryout-admin .social-buttons a img + img {
+    margin-left: 10px;
+}
+
+.cryout-admin br.colors-br { display:block; margin-bottom:10px; }
+
+#jsAlert {
+	margin: 10px 0 0 0;
+	background-color: #F4F8FA;
+	border-color: #BCE8F1; border-style: solid; border-radius: 0; border-width: 0 0 0 3px;
+	padding:5px 10px;
+}
+
+#parabola-settings-placeholder {
+	background: #fff;
+	padding: 0 10px 10px 10px;
+}
+
+#parabola-settings-placeholder h3 {
+	background: #444;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 10px;
+	margin: 0 -10px;
+	font-size: 14px;
+}
+
+#parabola-settings-placeholder a {
+	color: #24C1BB;
+}
+
+#empty-placeholder-heading-for-wp441-notice-forced-move {
+    padding: 0;
+}
+
+/* 
+  Responsive admin
+*/
+
+@media (max-width:800px) {
+
+	.cryout-admin #lefty, .cryout-admin #righty {
+		min-width:300px;
+		max-width:100%;
+		padding:0;
+	}
+
+	.cryout-admin .form-table th { width:auto; }
+
+	.cryout-admin .slmini b { width:100%; margin-bottom:5px; }
+
+	#accordion select,
+	#accordion input[type="text"],
+	#accordion textarea {display:inline !important;width:auto !important;max-width:70%;}
+	#accordion textarea {max-width:60% !important;}
+
+	#accordion select {font-family:"Segoe UI";}
+	.cryout-admin .slidebox a.upload_image_button { float:none; }
+
+	#accordion .slidebox input[type="text"],
+	#accordion .slidebox textarea {
+		display:block !important;
+		float:none !important;
+		width:100% !important;
+		max-width:100% !important;
+	}
+
+}
+
+/* FIN */
