@@ -157,8 +157,8 @@ function parabola_meta_before() {
      // If author is hidden don't give it a value
     $author_string = sprintf( '<span class="author vcard" >'.__( 'By ','parabola'). ' <a class="url fn n" rel="author" href="%1$s" title="%2$s">%3$s</a></span>',
     			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-    			sprintf( esc_attr__( 'View all posts by %s', 'parabola' ), get_the_author() ),
-    			get_the_author()
+    			sprintf( esc_attr__( 'View all posts by %s', 'parabola' ), esc_attr( get_the_author() ) ),
+    			esc_attr( get_the_author() )
     		);
 
      // Post date/time option

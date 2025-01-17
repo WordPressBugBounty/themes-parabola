@@ -9,7 +9,7 @@
 
 // theme specifics
 define ( '_CRYOUT_THEME_NAME', 'parabola' );
-define ( '_CRYOUT_THEME_VERSION', '2.4.1' );
+define ( '_CRYOUT_THEME_VERSION', '2.4.2' );
 
 require_once( get_template_directory() . "/admin/main.php" ); // Load necessary admin files
 

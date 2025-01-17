@@ -1,11 +1,11 @@
 =============
 Parabola WordPress Theme
-Copyright 2013-23 Cryout Creations
+Copyright 2013-25 Cryout Creations
 
 Author: Cryout Creations
 Requires at least: 4.5
-Tested up to: 6.4
-Stable tag: 2.4.1
+Tested up to: 6.7
+Stable tag: 2.4.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://www.cryoutcreations.eu/donate/
@@ -113,6 +113,12 @@ For current translation contributors, see https://translate.wordpress.org/projec
 
 
 == Changelog ==
+
+= 2.4.2 = 
+* Fixed XSS vulnerability allowing the output of unsanitized user names set by rogue editors/contributors - reported by stealthcopter on patchstack.com
+* Fixed PHP 8.2+ deprecation notice about using ${var}
+* Added new social icons: Bluesky, Mastodon and X
+* Removed obsolete social icons: GooglePlus, Steam-old, Twitter-old, Youtube-old
 
 = 2.4.1 =
 

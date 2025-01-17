@@ -324,18 +324,6 @@ if ( isset( $_GET['settings-updated'] ) ) {
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 				</form>
 			</div>
-			<p>Or socially smother, caress and embrace us:</p>
-			<div class="social-buttons">
-				<a href="https://www.facebook.com/cryoutcreations" target="_blank" title="Follow us on Facebook">
-					<img src="<?php echo esc_url( get_template_directory_uri() ) . '/admin/images/icon-facebook.png' ?>" alt="Facebook">
-				</a>
-				<a href="https://twitter.com/cryoutcreations" target="_blank" title="Follow us on Twitter">
-					<img src="<?php echo esc_url( get_template_directory_uri() ) . '/admin/images/icon-twitter.png' ?>" alt="Twitter">
-				</a>
-				<a href="https://profiles.wordpress.org/cryout-creations/" target="_blank" title="Check out our WordPress.org creations">
-					<img src="<?php echo esc_url( get_template_directory_uri() ) . '/admin/images/icon-wporg.png' ?>" alt="WordPress.org">
-				</a>
-			</div>
 		</div><!-- inside -->
 	</div><!-- donate -->
 	

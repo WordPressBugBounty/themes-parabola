@@ -53,12 +53,12 @@ function cryout_proto_field($settings,$type,$name,$values,$labels='',$cls='',$ec
 	endif;
 	switch ($type):
 		case "checkbox": 
-			$data = "<input value='1' id='$name' name='${settings['id']}[$name]' type='checkbox' ".checked($values,'1',0). " class='$cls'/> ".
+			$data = "<input value='1' id='$name' name='{$settings['id']}[$name]' type='checkbox' ".checked($values,'1',0). " class='$cls'/> ".
 			$data .= "<label for='$name' class='socialsdisplay'>";
 			$data .= $labels." </label>\n";
 		break; 
 		case "select": 
-			$data = "<select id='$name' name='${settings['id']}[$name]' class='$cls'>";
+			$data = "<select id='$name' name='{$settings['id']}[$name]' class='$cls'>";
 			foreach($values as $id => $val):
 				$data .= "<option value='$val'".selected($settings[$name],$val,false).">$labels[$id]</option>";
 			endforeach;
@@ -69,7 +69,7 @@ function cryout_proto_field($settings,$type,$name,$values,$labels='',$cls='',$ec
 		break;	
 		case "input":
 		default:    
-			$data = "<input id='$name' name='${settings['id']}[$name]' size='$len' type='text' value='";
+			$data = "<input id='$name' name='{$settings['id']}[$name]' size='$len' type='text' value='";
 			switch ($san): 
 				case "url": $data .= esc_url( $settings[$name] ); break; 
 				case "int": $data .= intval(esc_attr( $settings[$name] )); break; 
