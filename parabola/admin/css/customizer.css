@@ -4,13 +4,11 @@
     width: initial;
 }
 
-
-
 #customize-theme-controls [id*="accordion-section-about"] .customize-cryoutspecial-about-link a,
 #customize-theme-controls [id*="accordion-section-cryoutspecial-about-theme"] .customize-cryoutspecial-about-link a,
 #customize-theme-controls [id*="accordion-section-cryout_advanced_settings"] .customize-cryoutspecial-about-link a  {
 	display: block;
-	max-width: 300px;
+	/* max-width: 300px; */
 	padding: 10px;
 	border: 1px solid #DDD;
 	font-weight: bold;

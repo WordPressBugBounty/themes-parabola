@@ -1,11 +1,11 @@
 =============
 Parabola WordPress Theme
-Copyright 2013-25 Cryout Creations
+Copyright 2013-26 Cryout Creations
 
 Author: Cryout Creations
 Requires at least: 4.5
-Tested up to: 6.7
-Stable tag: 2.4.2
+Tested up to: 6.9
+Stable tag: 2.4.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://www.cryoutcreations.eu/donate/
@@ -113,6 +113,13 @@ For current translation contributors, see https://translate.wordpress.org/projec
 
 
 == Changelog ==
+
+= 2.4.3 =
+* Fixed '_load_textdomain_just_in_time() was called incorrectly' notice introduced by WordPress 6.7
+* Fixed missing list bullets in blocks
+* Changed footer links to be protocol agnostic and avoid warnings from automated quality check tools
+* Removed legacy eot and svg bundled font formats to reduce theme size
+* Bumped compatibility with WordPress 6.9
 
 = 2.4.2 = 
 * Fixed XSS vulnerability allowing the output of unsanitized user names set by rogue editors/contributors - reported by stealthcopter on patchstack.com

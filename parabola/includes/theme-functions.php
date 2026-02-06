@@ -380,8 +380,8 @@ endif;
 function parabola_site_info() {
 	?>
 	<div style="text-align:center;padding:5px 0 2px;text-transform:uppercase;font-size:12px;margin:1em auto 0;">
-	<?php _e('Powered by','parabola')?> <a target="_blank" href="<?php echo 'http://www.cryoutcreations.eu';?>" title="<?php echo 'Parabola Theme by '.
-			'Cryout Creations';?>"><?php echo 'Parabola' ?></a> &amp; <a target="_blank" href="<?php echo 'http://wordpress.org/'; ?>"
+	<?php _e('Powered by','parabola')?> <a target="_blank" href="<?php echo '//www.cryoutcreations.eu';?>" title="<?php echo 'Parabola Theme by '.
+			'Cryout Creations';?>"><?php echo 'Parabola' ?></a> &amp; <a target="_blank" href="<?php echo '//wordpress.org/'; ?>"
 			title="<?php esc_attr_e('Semantic Personal Publishing Platform', 'parabola'); ?>"> <?php printf(' %s.', 'WordPress' ); ?>
 		</a>
 	</div><!-- #site-info -->
